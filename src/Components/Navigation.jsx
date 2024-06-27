@@ -1,6 +1,7 @@
 import { AppBar, Button, Drawer, Fab, Grid, List, ListItemButton, ListItemText, Toolbar, useMediaQuery } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from "react";
+import logo from "../assets/Logo.png";
 
 export default function Navigation() {
 
@@ -19,7 +20,7 @@ export default function Navigation() {
                     <Grid container>
                         <Grid item xs={4} lg={5}>
                             <Button sx={{ marginX: '20px', fontSize: '24px', color: '#ecf3fb' }}>
-                                LOGO
+                                <img src={logo} alt="Logo" style={{ height: '80px', width: 'auto' }} />
                             </Button>
                         </Grid>
                         <Grid item xs={8} lg={7} sx={{ textAlign: 'end', alignSelf:'center' }}>
