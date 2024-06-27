@@ -5,6 +5,7 @@ import p1 from "../assets/p1.jpg";
 import p2 from "../assets/quora1.png";
 import p3 from "../assets/p3.png";
 import p4 from "../assets/p2.png";
+import p5 from "../assets/p5.png";
 
 export default function Work() {
 
@@ -15,21 +16,26 @@ export default function Work() {
             description: "A online judge where you can solve DSA questions",
             image: p1
         },
-        ,
         {
             id: 2,
+            name: "Sneaker Hunt",
+            description: "An automated web scraping system, that retrieves the best price for your favourite sneaker from the renowned websites on internet,",
+            image: p5
+        },
+        {
+            id: 3,
             name: "Quora Digest",
             description: "A end to end backend system for a Q&A like application where you can post questions and answers, follow users and topics that attract you most.",
             image: p2
         },
         {
-            id: 3,
+            id: 4,
             name: "NovaNest",
             description: "A simple web-based chat application where you can chat with other users.",
             image: p3
         },
         {
-            id: 4,
+            id: 5,
             name: "Financial AI Chatbot",
             description: "A ChatGPT based AI chatbot which can be used to get real time data of the stocks, calculate and plot their performance chart for a given time window.",
             image: p4

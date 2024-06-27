@@ -1,6 +1,6 @@
 import { GitHub, LinkedIn, Mail, Phone, Twitter } from "@mui/icons-material";
 import { Box, Button, Grid, Link, Typography } from "@mui/material";
-import bg from "../assets/bg1.jpg";
+import profile from "../assets/Profile.jpg";
 
 export default function Home() {
     return (
@@ -9,7 +9,7 @@ export default function Home() {
             <Grid item xs={12} md={5} lg={4} sx={{ padding: { xs: '2px', md: 'inherit' } }}>
                 <Grid container>
                     <Grid item sx={{ backgroundColor: "#232427", height: '450px', width: '100%', border: '0.1px solid #151517', boxShadow: "8px 6px 4px #030303" }}>
-                        <img src={bg} style={{ height: '100%', width: '100%' }} />
+                        <img src={profile} style={{ height: '100%', width: '100%' }} />
                     </Grid>
                 </Grid>
                 <Grid container>
@@ -81,7 +81,7 @@ export default function Home() {
                         </Link>
                     </Box>
                 </Box>
-                <Button href="" sx={{fontFamily: "Roboto Condensed", float:'inline-end', marginTop:'40px', fontSize:{xs: '20px', lg:'32px'}, width:{xs:'50%', lg:'40%'}, marginRight:{xs:'30px'}, border: '0.1px solid #151517', boxShadow: "8px 6px 4px #030303", color:'#f7f2f0', borderRadius:'50px'}}>
+                <Button href="https://drive.google.com/file/d/1C7gXUhNRJNIktC-hW7u58pP4Ae69F1Uo/view" sx={{fontFamily: "Roboto Condensed", float:'inline-end', marginTop:'40px', fontSize:{xs: '20px', lg:'32px'}, width:{xs:'50%', lg:'40%'}, marginRight:{xs:'30px'}, border: '0.1px solid #151517', boxShadow: "8px 6px 4px #030303", color:'#f7f2f0', borderRadius:'50px'}}>
                     Download CV
                 </Button>
             </Grid>
